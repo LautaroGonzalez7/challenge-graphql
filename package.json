@@ -1,0 +1,33 @@
+{
+  "name": "challenge-graphql",
+  "version": "1.0.0",
+  "description": "graphql challenge",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "tsc && node dist/src/app.js",
+    "build": "tsc",
+    "test": "ts-mocha -p tsconfig.json tests/**/*.ts"
+  },
+  "author": "lautarong796@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^9.1.0",
+    "@types/node": "17.0.24",
+    "typescript": "4.6.3",
+    "ts-mocha": "^9.0.2"
+  },
+  "dependencies": {
+    "apollo-server": "^3.6.7",
+    "axios": "^0.26.1",
+    "chai": "^4.3.6",
+    "class-validator": "^0.13.2",
+    "dotenv": "^16.0.0",
+    "graphql": "^15.3.0",
+    "mocha": "^9.2.2",
+    "mysql2": "^2.3.3",
+    "reflect-metadata": "^0.1.13",
+    "sinon": "^13.0.2",
+    "type-graphql": "^1.1.1",
+    "typeorm": "0.2.37"
+  }
+}
