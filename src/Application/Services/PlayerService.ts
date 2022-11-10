@@ -17,8 +17,8 @@ export class PlayerService {
             };
 
             for (const team of teams) {
-                console.log("waiting for 6 seconds...")
-                await new Promise(r => setTimeout(r, 6000));
+                console.log("waiting for 10 seconds...")
+                await new Promise(r => setTimeout(r, 10000));
                 console.log("ready!")
 
                 this.api.url = baseUrl.replace(":teamExternalId", `${team.externalId}`)

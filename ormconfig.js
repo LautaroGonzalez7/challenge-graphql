@@ -15,7 +15,7 @@ module.exports = {
   "database": database,
   "synchronize": false,
   "logging": false,
-  "migrations": ["dist/Infraestructure/Persistence/TypeORM/Migrations/*.js"],
+  "migrations": ["dist/src/Infraestructure/Persistence/TypeORM/Migrations/*.js"],
   "cli": {
     "migrationsDir": "src/Infraestructure/Persistence/TypeORM/Migrations"
   },
